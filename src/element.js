@@ -11,10 +11,7 @@ function Element(props) {
    <>
         <button onClick={handeClick}>{ active ? "+" : "-" }</button>
         <h1>{props.name}</h1>
-        <span>
-        {active ? null : props.text} 
-        {active ? null : props.element}
-        </span>
+        {active ? null : <div> <p>props.text</p> {props.element}  </div>} 
    </>
   );
 }
