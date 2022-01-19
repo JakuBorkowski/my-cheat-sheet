@@ -4,9 +4,9 @@ import Element from "./element";
 function App() {
   //tablica z danymi
   const data = [
-    { name: "git", id: 1, text: "text git", data: [] },
+    { name: "--git", id: 1, text: "text git", data: [] },
     {
-      name: "java script",
+      name: "{java script}",
       id: 2,
       text: "text js",
       data: [

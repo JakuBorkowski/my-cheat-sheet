@@ -9,9 +9,11 @@ function Element(props) {
 
   return (
    <>
-        <button onClick={handeClick}>{ active ? "+" : "-" }</button>
-        <h1>{props.name}</h1>
-        {active ? null : <div> <p>{props.text}</p> {props.element}  </div>} 
+   <div className='element'>
+        <div className='elementName'><button onClick={handeClick}>{ active ? "+" : "-" }</button>
+        <h1>{props.name}</h1></div>
+        {active ? null : <div className='context'> <p>{props.text}</p><br/>{props.element}  </div>} 
+    </div>
    </>
   );
 }

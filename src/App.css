@@ -3,3 +3,38 @@
     padding: 0;
     list-style: none;
 }
+body{
+    padding: 15px;
+    margin: 15px;
+    background-color:#E7BD7E ;
+}
+#root{
+    min-width: 350px;
+}
+.element{
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    border: solid #2D2110 5px;
+    border-radius: 20px;
+    min-width: 90%;
+    background-color: #D48F29;
+    color: #F9EEDD;
+}
+.element button{
+width: 20px;
+height: 20px;
+margin: 20px 10px;
+border: 3px solid #2D2110;
+font-weight: 600;
+background-color: #D48F29 ;
+color: #F9EEDD;
+}
+.context{
+    margin: 10px
+}
+.elementName{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
