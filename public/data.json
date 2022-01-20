@@ -1,1 +1,44 @@
-[{"name":"--git","id":1,"text":"text git","data":[]},{"name":"{java script}","id":2,"text":"text js","data":[{"name":"tablice","id":[2,1],"text":"text tablice","data":[{"name":"tworzenie nowych tablic","id":[2,1,1],"text":"tekst tworzenie","data":[]},{"name":"kopiowanie tablic","id":[2,1,2],"text":"text kopiowanie","data":[]}]},{"name":"pętle","id":[2,2],"text":"tekst pętle","data":[]}]}]
+[
+    {"name":"--git","id":1,"text":"text git","data":[
+
+    ]},
+    {"name":"{java script}","id":2,"text":"skryptowy język programowania","data":[
+
+        {"name":"tablice","id":[2,1],"text":"text tablice","data":[
+
+            {"name":"tworzenie nowych tablic","id":[2,1,1],"text":"tekst tworzenie","data":[
+
+            ]},
+            {"name":"kopiowanie tablic","id":[2,1,2],"text":"text kopiowanie","data":[
+
+            ]}]},
+            {"name":"pętle","id":[2,2],"text":"tekst pętle","data":[
+
+            ]}]},
+    {"name":"[{json}]","id":3,"text":"JavaScript Object Notation","data":[
+        {"name":"przekształcenie json w js","id":[3,1],"text":"JSON.parse();","data":[
+        
+            ]},
+        {"name":"przekształcenie js w json","id":[3,2],"text":"JSON.stringify();","data":[
+        
+             ]},
+        {"name":"pobieranie ze ścieżki w react","id":[3,3],"text":"utworzyć zmienną, użyć useEffect(), w środku użyć fetch(), podać ściezkę w fetch, użyć .then() aby stworzyć obietnice, ponownie użyć .then() aby przypisać dane do zmiennej NIEzapomnieć prawidłowo sformułować useEffect. Zmienna nie wymaga użycia parse","data":[
+        
+             ]}
+    ]},
+    {"name":"<React/>","id":4,"text":"React.js – biblioteka języka programowania JavaScript","data":[
+        {"name":"instalacja api","id":[4,1],"text":"w terminalu (ctrl + `) npx create-react-app my-app","data":[
+
+            ]},
+        {"name":"start w przeglądarce api","id":[4,2],"text":"w terminalu (ctrl + `) npm start","data":[
+
+            ]}
+        ]},
+    {"name":"<html/>","id":5,"text":" HyperText Markup Language - EJCZ TI EM EL","data":[
+
+         ]},
+    {"name":".c{s:s}","id":6,"text":"Cascading Style Sheets","data":[
+
+        ]}
+    
+        ]
