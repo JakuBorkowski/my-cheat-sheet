@@ -1,6 +1,45 @@
 [
     {"name":"--git","id":1,"text":"text git","data":[
+        {"name":"dodaj nazwę użytkownika","id":[1,1],"text":"git config user.name","data":[
 
+        ]},
+        {"name":"dodaj mail","id":[1,2],"text":"git config user.email","data":[
+
+        ]},
+        {"name":"gałęzie","id":[1,5],"text":"","data":[
+            {"name":"połącz gałąź","id":[1,5,1],"text":"najpierw zalogować na gałąź z którą chcemy połączyć wskazaną gałąź następnie git merge *nazwa gałęzi*","data":[
+
+                ]},
+            {"name":"stwórz gałąź","id":[1,5,2],"text":"git branch *nazwa gałęzi*","data":[
+
+                ]},
+            {"name":"zobacz gałęzie","id":[1,5,3],"text":"git branch","data":[
+        
+                ]},
+            {"name":"przełącz się na gałąź","id":[1,5,4],"text":"git chekout *nazwa gałęzi*","data":[
+        
+                ]},
+            {"name":"usuń gałąź","id":[1,5,5],"text":"git branch -D *nazwa gałęzi*","data":[
+        
+                ]},
+            {"name":"usuń gałąź","id":[1,5,6],"text":"git branch -D *nazwa gałęzi*","data":[
+        
+                ]},
+            {"name":"lista gałęzi","id":[1,5,7],"text":"git branch --list","data":[
+        
+                    ]}
+            ]},
+        
+        {"name":"status","id":[1,6],"text":"git status","data":[
+
+            ]},
+        {"name":"wybranie folderu","id":[1,7],"text":"cd *scieżka* zamiast wpisywanie ścieżki ręcznie najedź folderemn na okno git","data":[
+
+            ]}
+            ,
+        {"name":"tworzenie repozytorium","id":[1,8],"text":"git init","data":[
+    
+            ]}
     ]},
     {"name":"{java script}","id":2,"text":"skryptowy język programowania","data":[
 
