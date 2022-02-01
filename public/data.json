@@ -16,18 +16,15 @@
             {"name":"zobacz gałęzie","id":[1,5,3],"text":"git branch","data":[
         
                 ]},
-            {"name":"przełącz się na gałąź","id":[1,5,4],"text":"git chekout *nazwa gałęzi*","data":[
+            {"name":"przełącz się na gałąź","id":[1,5,4],"text":"git checkout *nazwa gałęzi*","data":[
         
                 ]},
             {"name":"usuń gałąź","id":[1,5,5],"text":"git branch -D *nazwa gałęzi*","data":[
         
                 ]},
-            {"name":"usuń gałąź","id":[1,5,6],"text":"git branch -D *nazwa gałęzi*","data":[
-        
-                ]},
             {"name":"lista gałęzi","id":[1,5,7],"text":"git branch --list","data":[
         
-                    ]}
+                ]}
             ]},
         
         {"name":"status","id":[1,6],"text":"git status","data":[
@@ -46,7 +43,9 @@
         {"name":"tablice","id":[2,1],"text":"text tablice","data":[
 
             {"name":"tworzenie nowych tablic","id":[2,1,1],"text":"tekst tworzenie","data":[
+                {"name":"wycinanie fragmentu tablicy ","id":[2,1,1],"text":"arr.slice([begin, end) gdzie za begin wstawiamy numer ideksu od którego chcemy zacząć a za end na którym skończyć","data":[
 
+                    ]}
             ]},
             {"name":"kopiowanie tablic","id":[2,1,2],"text":"text kopiowanie","data":[
 
