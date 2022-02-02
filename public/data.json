@@ -45,7 +45,10 @@
             {"name":"tworzenie nowych tablic","id":[2,1,1],"text":"tekst tworzenie","data":[
                 {"name":"wycinanie fragmentu tablicy ","id":[2,1,1],"text":"arr.slice([begin, end) gdzie za begin wstawiamy numer ideksu od którego chcemy zacząć a za end na którym skończyć","data":[
 
-                    ]}
+                    ]},
+                    {"name":"wykonanie działania na każdym elemencie tablicy, mapowanie","id":[2,1,2],"text":"arr.map(arr=> /* działanie */ odnosząc sie do arr w działaniu odnosimy się do pojedyńczego elementu tablicy np. jesli tablica to [1,2,3] a działanie to arr + 1 otrzymamy nowa tablicę [2,3,4])","data":[
+
+                        ]}
             ]},
             {"name":"kopiowanie tablic","id":[2,1,2],"text":"text kopiowanie","data":[
 
